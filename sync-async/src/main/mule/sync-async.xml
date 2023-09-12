@@ -17,6 +17,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 			<logger level="INFO" doc:name="Logger" doc:id="07db91c3-a1db-49eb-a3c1-af1d1dcbbc0b" message="asy2" />
 			<logger level="INFO" doc:name="Logger" doc:id="0b01c524-bed5-4a3e-adb1-dcf8c82d1c41" message="asy3"/>
 			<logger level="INFO" doc:name="Logger" doc:id="1e1d6447-24b2-47a0-8033-173a68dbb0fe" message="asy 4"/>
+			<logger level="INFO" doc:name="Logger" doc:id="1e1d6447-24b2-47a0-8033-173a68dbb0fe" message="asy 5"/>
 		</async>
 		<flow-ref doc:name="Flow Reference" doc:id="960546b1-b89f-45ce-971a-6722e303289f" name="private_Flow"/>
 		<logger level="INFO" doc:name="Logger" doc:id="6a8f4d64-3b0e-4c77-aeac-f04b0122394c" message="end flow"/>
