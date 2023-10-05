@@ -1,0 +1,53 @@
+#%RAML 1.0
+title: calculate-api
+version: 
+protocols:
+  - http
+traits:
+  que: !include /traits/trait.raml
+ 
+
+/addition:
+  get:
+    is:
+     que
+
+    responses:
+      200:
+        body:
+          application/json:
+            example:  !include examples/addition-response.json
+                 
+/subtraction:
+  get:
+    is:
+      - que
+    responses:
+      200:
+        body:
+          application/json:
+            example: !include examples/subtraction-response.json
+     
+/multiplication:
+  get:
+    is:
+      - que
+    responses:
+      200:
+        body:
+          application/json:
+            example: !include examples/multiplication-response.json
+             
+/division:
+  get:
+    is:
+      - que
+    responses:
+      200:
+        body:
+          application/json:
+            example: !include examples/division-response.json
+              
+      
+        
+
