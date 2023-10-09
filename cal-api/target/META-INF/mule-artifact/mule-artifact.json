@@ -1,0 +1,30 @@
+{
+  "configs": [
+    "calculate-api.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:cal-api:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.4.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "api/calculate-api.raml",
+        "api/examples/addition-response.json",
+        "api/examples/division-response.json",
+        "api/examples/multiplication-response.json",
+        "api/examples/subtraction-response.json",
+        "api/traits/trait.raml",
+        "calculate-api.xml",
+        "log4j2.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
