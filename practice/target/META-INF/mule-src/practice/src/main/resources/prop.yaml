@@ -1,0 +1,6 @@
+##### http configuration #####
+
+http:
+ "host": "localhost"
+ "port": "8085"
+ "path": "practice"
